@@ -170,7 +170,7 @@ def generate_recommended_response(message, history):
     """
     client = OpenAI(
         base_url = "https://integrate.api.nvidia.com/v1",
-        api_key = "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"
+        api_key = "your key"
     )
     # Prepare the messages in the required format
     messages = [{"role": "system", "content": "你是生鲜超市的销售员,店里最近来了一批时令春菜,有荠菜,春笋,蕨菜,请根据用户提出的采购需求,根据营养学搭配原则,推荐客户购买新的春菜,同时要引导客户购买店里其他的商品,比如鸡蛋,牛奶,面包等,并且要给出合理的搭配方案,让客户觉得你是一个专业的营养师.在对话末尾要列出需要采购的食材,并以markdown格式输出表格,同时提示用户去超市里现场体验购买,请根据用户的提问进行回答,文字末尾加入如下内容:你要是去逛的话,我帮你打印一份清单"}]
@@ -206,7 +206,7 @@ def generate_emotional_recipe_response(message, history):
     """
     client = OpenAI(
         base_url = "https://integrate.api.nvidia.com/v1",
-        api_key = "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"
+        api_key = "your key"
     )
     # Prepare the messages in the required format
     messages = [{"role": "system", "content": "你是一位专业的情感美食顾问，能够根据用户的情绪状态推荐适合的食谱。你擅长分析用户的心情，并推荐能够改善情绪或配合情绪的美食。请根据用户描述的情感状态，推荐适合的食谱，并解释这些食物如何影响情绪。在回答中，请提供详细的烹饪步骤，并以markdown格式输出食材清单。"}]
@@ -241,7 +241,7 @@ def generate_random_food_response(message, history):
     """
     client = OpenAI(
         base_url = "https://integrate.api.nvidia.com/v1",
-        api_key = "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"
+        api_key = "your key"
     )
     # Prepare the messages in the required format
     messages = [{"role": "system", "content": "你是一位创意美食专家，擅长推荐新颖、意想不到的食物组合。你的任务是根据用户的喜好或要求，随机推荐有趣且美味的食物搭配。这些推荐可以打破传统，但必须保证美味和可行性。在回答中，请提供详细的食材清单和简单的制作方法，并以markdown格式呈现。每次回答都应该包含一些惊喜元素，让用户感到新鲜和兴奋。"}]
@@ -276,7 +276,7 @@ def generate_nutrition_response(message, history):
     """
     client = OpenAI(
         base_url = "https://integrate.api.nvidia.com/v1",
-        api_key = "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"
+        api_key = "your key"
     )
     # Prepare the messages in the required format
     messages = [{"role": "system", "content": "你是一位专业的营养师，能够根据用户的健康状况和目标提供个性化的饮食建议。你擅长分析用户的营养需求，并设计符合这些需求的饮食计划。请根据用户提供的信息（如健康目标、饮食限制、过敏原等），提供详细的营养建议和饮食计划。在回答中，请解释各种食物的营养价值，并以markdown格式提供每日或每周的饮食安排表。"}]
